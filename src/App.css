@@ -1,0 +1,182 @@
+:root {
+  --primary: #FF9142;
+  --secondary:#999999;
+  --color: #fff;
+
+  --padding-y-large: 50px 0;
+  --padding-y-medium: 30px 0;
+  --padding-btn: 12px 23px;
+
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-600: 600;
+
+
+  --gap-half: .5rem;
+  --gap-1: 1rem;
+  --gap-2: 2rem;
+  --gap-3: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Syne', sans-serif;
+  background-color: #1A1A1A;
+  color: var(--color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  font-size: clamp(1.7rem, 7vw, 2rem);
+}
+/* h1,h2,h3,p{
+  font-size: inherit;
+} */
+p{
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.btn {
+  font-size: clamp(.6rem, 2vw, .7rem);
+}
+
+
+.flex_align_center {
+  display: flex;
+  align-items: center;
+}
+
+.gap_half {
+  gap: var(--gap-half);
+}
+
+.gap_1 {
+  gap: var(--gap-1);
+}
+
+.gap_2 {
+  gap: var(--gap-2);
+}
+
+.gap_3 {
+  gap: var(--gap-3);
+}
+.fw_300 {
+  font-weight: var(--fw-300);
+}
+
+.fw_400 {
+  font-weight: var(--fw-400);
+}
+
+.fw_600 {
+  font-weight: var(--fw-600);
+}
+
+.padding_y_large {
+  padding: var(--padding-y-large);
+}
+
+.padding_y_medium {
+  padding: var(--padding-y-medium);
+}
+.secondary_color{
+  color: var(--secondary);
+}
+.btn {
+  padding: var(--padding-btn);
+  border-radius: 13px;
+  background-color: var(--primary);
+  color: var(--color);
+  transition: .3s;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: 1px solid var(--primary);
+}
+
+.btn:hover {
+  background-color: transparent;
+}
+
+.btn_invert {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  transition: .3s;
+}
+
+.btn_invert:hover {
+  background-color: var(--primary);
+}
+
+.line {
+  width: 30px;
+  height: 2px;
+  border-radius: var(--padding-btn);
+  background: var(--primary);
+}
+
+.car_models_container,
+.info_container,
+.navbar_container,
+.reviews ,.footer{
+  --max-width: 900px;
+  --padding: 1.3rem;
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.car_models,
+.reviews,.info {
+  padding-top: 100px;
+}
+
+
+.footer_container,.info_container_text{
+  text-overflow:ellipsis;
+  position: relative;
+}
+.footer_container::before,.info_container_text::before{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: url("././images/Vector\ 8.svg") center  no-repeat;
+  z-index: -1;
+}
+.footer_container::before{
+  top: -80px;
+  left: -120px;
+}
+.info_container_text::before{
+  top: -100px;
+  left: -250px;
+}
+@media screen and (max-width:500px){
+  .info_container_text::before{
+    left: -120px;
+  }
+}
