@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SpeedWheels/static/css/main.9465ec6a.css",
+    "main.js": "/SpeedWheels/static/js/main.860c426b.js",
+    "static/media/tesla.jpg": "/SpeedWheels/static/media/tesla.1f886eb1dad67440735c.jpg",
+    "static/media/porsche.jpg": "/SpeedWheels/static/media/porsche.22c67ff6994f0733a4c9.jpg",
+    "static/media/gwagon2.jpg": "/SpeedWheels/static/media/gwagon2.825688036eda74cdbf24.jpg",
+    "static/media/dodge1.jpg": "/SpeedWheels/static/media/dodge1.80caad9aaee2a37e3629.jpg",
+    "static/media/heroImg.jpg": "/SpeedWheels/static/media/heroImg.d19d8117a87bcd6ce390.jpg",
+    "static/media/infoImg.jpg": "/SpeedWheels/static/media/infoImg.d550f203a48b0ef1fa41.jpg",
+    "static/media/mainLogo.png": "/SpeedWheels/static/media/mainLogo.d93ddf4ef35794570717.png",
+    "index.html": "/SpeedWheels/index.html",
+    "static/media/Vector 8.svg": "/SpeedWheels/static/media/Vector 8.b9ec431a8476c2113c27.svg",
+    "main.9465ec6a.css.map": "/SpeedWheels/static/css/main.9465ec6a.css.map",
+    "main.860c426b.js.map": "/SpeedWheels/static/js/main.860c426b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9465ec6a.css",
+    "static/js/main.860c426b.js"
+  ]
+}
