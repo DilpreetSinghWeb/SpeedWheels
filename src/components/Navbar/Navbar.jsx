@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="navbar | navbar_bg" id="navbar">
       <div className="navbar_container ">
         <div className="navbar_container_logo">
-         <a href="/"><img src={logoPhoto} alt="LogoPhoto" /></a> 
+         <a href="https://dilpreetsinghweb.github.io/SpeedWheels/"><img src={logoPhoto} alt="LogoPhoto" /></a> 
         </div>
         <div
           className={`navbar_container_bars ${menuOpen ? "open" : ""}`}
